@@ -19,7 +19,7 @@ const search = (function() {
         .catch(error => console.log(error.message));
     });
 
-
+    render();
   };
 
 

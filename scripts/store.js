@@ -17,7 +17,11 @@ const store = (function() {
    * @param {*}  repo an element of the json response to be added to store of repos
    */
   function addRepo(repo) {
-    this.repositories.push(repo);
+    this.repositories.push(
+      {
+        name: repo.name,
+        url : repo.url,
+      });
   }
     
 
@@ -37,8 +41,6 @@ const store = (function() {
     findRepoById,
     addRepo,
     // deleteRepo,
-
-
 
   };
 
