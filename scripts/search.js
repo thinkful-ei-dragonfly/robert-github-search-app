@@ -80,9 +80,13 @@ const search = (function() {
     generateRenderError();
   }
 
-
-
   $(initializeListeners());
+
+
+  return {
+    initializeListeners,
+    render,
+  };
 
 
 })();
