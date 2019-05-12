@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+    
+  <h1 role="banner">Search Repositories by Github Username</h1>
+  
+  <main role="main">
+  
+    <section role="region" id="search-github-region">
+
+    <form type="text" action="submit">
+      <label for="search-github-usernames">Search by Github Handle</label>
+      <input id="search-github-usernames" name="js-username" type="text" placeholder="@r-flow">
+    </form>
+
+    </section>
+
+
+
+    <section role="region">
+    <h2>Github Repository Results</h2>
+      <div id="js-results">
+
+      </div>
+    </section>
+
+
+  </main>
+  
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="scripts/search.js"></script>
+  <script type="text/javascript" src="scripts/index.js"></script>
+  
+</body>
+</html>
