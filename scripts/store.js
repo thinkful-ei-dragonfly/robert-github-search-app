@@ -6,19 +6,21 @@ const store = (function() {
   /**
    * 
    */
-  function findRepoById() {
-
+  function findRepoById(id) {
+    
   }
     
 
   /**
+   * add repo to list of repositories for user.
    * 
+   * @param {*}  repo an element of the json response to be added to store of repos
    */
-  function addRepo() {
-
+  function addRepo(repo) {
+    this.repositories.push(repo);
   }
     
-  
+
   // /**
   //  * 
   //  */
