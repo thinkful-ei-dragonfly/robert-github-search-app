@@ -2,6 +2,6 @@
 'use strict';
 
 $(function() {
-  initializeListeners();
-}
-);
+  search.initializeListeners();
+  search.render();
+});

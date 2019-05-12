@@ -16,7 +16,9 @@
 
     <form type="text" action="submit">
       <label for="search-github-usernames">Search by Github Handle</label>
-      <input id="search-github-usernames" name="js-username" type="text" placeholder="@r-flow">
+      <input id="search-github-usernames" name="js-username" type="text" placeholder="@r-flow" required>
+
+      <input type="submit" value="Add bookmark to list!">
     </form>
 
     </section>
@@ -25,9 +27,9 @@
 
     <section role="region">
     <h2>Github Repository Results</h2>
-      <div id="js-results">
+      <ul id="js-results">
 
-      </div>
+      </ul>
     </section>
 
 
